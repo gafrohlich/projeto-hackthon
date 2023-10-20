@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(10, 57, 209);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+.main-content {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.news-article {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.useful-links ul li {
+  margin-bottom: 10px;
+}
+
+.d-none {
+  display: none;
+}
+
+
+.d-block {
+  display: block;
+}
+
+footer {
+  background-color: #eed70a;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
